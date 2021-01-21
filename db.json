@@ -1,9 +1,11 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "list-station": [ 
+    { "id": 1, "name": "Stasiun Bandung Kota"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "list-camera": [
+    { "id": 1, "sector": "Locket Station", "imageUrl": "https://image.com", "cameras":[ {"id": "1", "name":"Camera1", "url": "https://image.com" },{"id": "2", "name":"Camera2", "url": "https://image2.com" } ] },
+{ "id": 2, "sector": "Entrance Area", "imageUrl": "https://image.com", "cameras":[ {"id": "1", "name":"Camera1", "url": "https://image.com" },{"id": "2", "name":"Camera2", "url": "https://image2.com" } ] },
+{ "id": 3, "sector": "Platform Area", "imageUrl": "https://image.com", "cameras":[ {"id": "1", "name":"Camera1", "url": "https://image.com" },{"id": "2", "name":"Camera2", "url": "https://image2.com" } ] },
+{ "id": 4, "sector": "Exit Area", "imageUrl": "https://image.com", "cameras":[ {"id": "1", "name":"Camera1", "url": "https://image.com" },{"id": "2", "name":"Camera2", "url": "https://image2.com" } ] }
+  ]
 }
