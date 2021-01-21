@@ -1,6 +1,6 @@
 {
   "list-station": [ 
-    { " ": 1, "station_name": "Bandung Station" ,"station_phone": "021-121", "street_address":"Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181", "city":"Kota Bandung", "province": "Jawa Barat" , "country":"Indonesia" },{ "station_id": 2, "station_name": "Pasar Senen" ,"station_phone": "021-121", "street_address":"Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410", "city":"Jakarta Pusat", "province": "DKI Jakarta" , "country":"Indonesia" }
+    { "station_id": 1, "station_name": "Bandung Station" ,"station_phone": "021-121", "street_address":"Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181", "city":"Kota Bandung", "province": "Jawa Barat" , "country":"Indonesia" },{ "station_id": 2, "station_name": "Pasar Senen" ,"station_phone": "021-121", "street_address":"Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410", "city":"Jakarta Pusat", "province": "DKI Jakarta" , "country":"Indonesia" }
   ],
   "list-camera": [
     { "station_id": 1, "station_name": "Bandung Station" ,"station_phone": "021-121", "street_address":"Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181", "city":"Kota Bandung", "province": "Jawa Barat" , "country":"Indonesia" , "list-sector": [
