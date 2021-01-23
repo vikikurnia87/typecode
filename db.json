@@ -1,19 +1,240 @@
 {
-  "list-station": [ 
-    { "station_id": 1, "station_name": "Bandung Station" ,"station_phone": "021-121", "street_address":"Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181", "city":"Kota Bandung", "province": "Jawa Barat" , "country":"Indonesia" },{ "station_id": 2, "station_name": "Pasar Senen" ,"station_phone": "021-121", "street_address":"Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410", "city":"Jakarta Pusat", "province": "DKI Jakarta" , "country":"Indonesia" }
-  ],
-  "list-camera": [
-    { "station_id": 1, "station_name": "Bandung Station" ,"station_phone": "021-121", "street_address":"Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181", "city":"Kota Bandung", "province": "Jawa Barat" , "country":"Indonesia" , "list-sector": [
-      { "id_sector": 1, "sector": "TRAV PERON BAWAH", "imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C", "cameras":[ {"id": "1", "name":"TRAV PERON 1 BAWAH", "url": "https://cctv2.sigma.my.id/stBD/streams/221738539513146112661948.m3u8" },{"id": "2", "name":"TRAV PERON 3 BAWAH", "url": "https://cctv2.sigma.my.id/stBD/streams/941114634082999453364735.m3u8" }, {"id": "3", "name":"TRAV PERON 5 BAWAH", "url": "https://cctv2.sigma.my.id/stBD/streams/747489829232699228101383.m3u8" }, {"id": "4", "name":"TRAV PERON 7 BAWAH", "url": "https://cctv2.sigma.my.id/stBD/streams/303286886095334259738514.m3u8" } ] },
-  { "id_sector": 2, "sector": "HALL", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"HALL", "url": "https://cctv2.sigma.my.id/stBD/streams/264214769855342669592079.m3u8" } ] },
-  { "id_sector": 3, "sector": "TRAV PERON HALL ATAS", "imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT", "cameras":[ {"id": "1", "name":"TRAV PERON HALL ATAS", "url": "https://cctv2.sigma.my.id/stBD/streams/231855060197822605294901.m3u8" } ] },
-  { "id_sector": 4, "sector": "TRAV PERON ATAS", "imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL", "cameras":[ {"id": "1", "name":"TRAV PERON 1 ATAS", "url": "https://cctv2.sigma.my.id/stBD/streams/268919277272788911370905.m3u8" },{"id": "2", "name":"TRAV PERON 3 ATAS", "url": "https://cctv2.sigma.my.id/stBD/streams/114950856404752814240617.m3u8" }, {"id": "3", "name":"TRAV PERON 5 ATAS", "url": "https://cctv2.sigma.my.id/stBD/streams/382704174868035523103269.m3u8" }, {"id": "4", "name":"TRAV PERON 7 ATAS", "url": "https://cctv2.sigma.my.id/stBD/streams/378266621951982526229698.m3u8" } ] }, { "id_sector": 5, "sector": "SKYBRIDGE POJOK UTARA", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"SKYBRIDGE POJOK UTARA", "url": "https://cctv2.sigma.my.id/stBD/streams/423359832197333193026075.m3u8" } ] },{ "id_sector": 6, "sector": "SKYBRIDGE POJOK SELATAN", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"SKYBRIDGE POJOK SELATAN", "url": "https://cctv2.sigma.my.id/stBD/streams/816363516944695705263530.m3u8" } ] }, { "id_sector": 7, "sector": "SINYAL MASUK TIMUR", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"SINYAL MASUK TIMUR", "url": "https://cctv2.sigma.my.id/stBD/streams/604569030607308240433716.m3u8" } ] },{ "id_sector": 8, "sector": "SINYAL KELUAR TIMUR", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"SINYAL KELUAR TIMUR", "url": "https://cctv2.sigma.my.id/stBD/streams/430008867531822194124826.m3u8" } ] } 
-    ] },
-    { "station_id": 2, "station_name": "Pasar Senen" ,"station_phone": "021-121", "street_address":"Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410", "city":"Jakarta Pusat", "province": "DKI Jakarta" , "country":"Indonesia" , "list-sector": [
-      { "id_sector": 5, "sector": "Loket Area", "imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C", "cameras":[ {"id": "1", "name":"Camera1", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8" },{"id": "2", "name":"Camera2", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8" } ] },
-  { "id_sector": 6, "sector": "Entrance Area", "imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B", "cameras":[ {"id": "1", "name":"Camera1", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8" },{"id": "2", "name":"Camera2", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8" } ] },
-  { "id_sector": 7, "sector": "Platform Area", "imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT", "cameras":[ {"id": "1", "name":"Camera1", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8" },{"id": "2", "name":"Camera2", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8" } ] },
-  { "id_sector": 8, "sector": "Exit Area", "imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL", "cameras":[ {"id": "1", "name":"Camera1", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8" },{"id": "2", "name":"Camera2", "url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8" } ] }
-    ] }
-  ]
+	"list-station": [
+		{
+			"station_id": 1,
+			"station_name": "Bandung Station",
+			"station_phone": "021-121",
+			"street_address": "Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181",
+			"city": "Kota Bandung",
+			"province": "Jawa Barat",
+			"country": "Indonesia"
+		},
+		{
+			"station_id": 2,
+			"station_name": "Pasar Senen",
+			"station_phone": "021-121",
+			"street_address": "Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410",
+			"city": "Jakarta Pusat",
+			"province": "DKI Jakarta",
+			"country": "Indonesia"
+		}
+	],
+	"list-camera": [
+		{
+			"station_id": 1,
+			"station_name": "Bandung Station",
+			"station_phone": "021-121",
+			"street_address": "Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181",
+			"city": "Kota Bandung",
+			"province": "Jawa Barat",
+			"country": "Indonesia",
+			"list-sector": [
+				{
+					"id_sector": 1,
+					"sector": "TRAV PERON BAWAH",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "TRAV PERON 1 BAWAH",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/874041671354544651654252_480p.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "TRAV PERON 3 BAWAH",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/337686272644031380773275_480p.m3u8"
+						},
+						{
+							"id": "3",
+							"name": "TRAV PERON 5 BAWAH",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/549717006870276795831074_480p.m3u8"
+						},
+						{
+							"id": "4",
+							"name": "TRAV PERON 7 BAWAH",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/021401072428578663412051_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 2,
+					"sector": "HALL",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "HALL",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/940524271088729477099048_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 3,
+					"sector": "TRAV PERON HALL ATAS",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "TRAV PERON HALL ATAS",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/540805644842201178622051_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 4,
+					"sector": "TRAV PERON ATAS",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "TRAV PERON 1 ATAS",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/106266556641910130384124_480p.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "TRAV PERON 3 ATAS",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/477094130232899590310131_480p.m3u8"
+						},
+						{
+							"id": "3",
+							"name": "TRAV PERON 5 ATAS",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/070141838647801705620081_480p.m3u8"
+						},
+						{
+							"id": "4",
+							"name": "TRAV PERON 7 ATAS",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/597638497299941113668031_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 5,
+					"sector": "SKYBRIDGE POJOK UTARA",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "SKYBRIDGE POJOK UTARA",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/434228092700689893574042_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 6,
+					"sector": "SKYBRIDGE POJOK SELATAN",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "SKYBRIDGE POJOK SELATAN",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/981631944777664758857619_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 7,
+					"sector": "SINYAL MASUK TIMUR",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "SINYAL MASUK TIMUR",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/798358335994579289689094_480p.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 8,
+					"sector": "SINYAL KELUAR TIMUR",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "SINYAL KELUAR TIMUR",
+							"url": "https://cctv.sigma.my.id:5443/LiveApp/streams/037307494275628715103070_480p.m3u8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"station_id": 2,
+			"station_name": "Pasar Senen",
+			"station_phone": "021-121",
+			"street_address": "Jl. Pasar Senen No.14, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410",
+			"city": "Jakarta Pusat",
+			"province": "DKI Jakarta",
+			"country": "Indonesia",
+			"list-sector": [
+				{
+					"id_sector": 5,
+					"sector": "Loket Area",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "Camera1",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "Camera2",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 6,
+					"sector": "Entrance Area",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "Camera1",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "Camera2",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 7,
+					"sector": "Platform Area",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "Camera1",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "Camera2",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8"
+						}
+					]
+				},
+				{
+					"id_sector": 8,
+					"sector": "Exit Area",
+					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
+					"cameras": [
+						{
+							"id": "1",
+							"name": "Camera1",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/549628724195830910561298.m3u8"
+						},
+						{
+							"id": "2",
+							"name": "Camera2",
+							"url": "http://cctv.sigma.my.id:5080/LiveApp/streams/034694443853745542589890.m3u8"
+						}
+					]
+				}
+			]
+		}
+	]
 }
