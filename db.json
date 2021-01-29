@@ -2,7 +2,7 @@
 	"list-station": [
 		{
 			"station_id": 1,
-			"station_name": "Bandung Station",
+			"station_name": "Stasiun Bandung",
 			"station_phone": "021-121",
 			"street_address": "Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181",
 			"city": "Kota Bandung",
@@ -31,138 +31,82 @@
 	"list-camera": [
 		{
 			"station_id": 1,
-			"station_name": "Bandung Station",
+			"station_name": "Stasiun Bandung",
 			"station_phone": "021-121",
 			"street_address": "Jl. Stasiun Barat Kb. Jeruk Kec. Andir Kota Bandung Jawa Barat 40181",
 			"city": "Kota Bandung",
 			"province": "Jawa Barat",
 			"country": "Indonesia",
-			"list-sector": [
+			"cameras": [
 				{
-					"id_sector": 1,
-					"sector": "TRAV PERON BAWAH",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "TRAV PERON 1 BAWAH",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/970166039821732819439469.m3u8"
-						},
-						{
-							"id": "2",
-							"name": "TRAV PERON 3 BAWAH",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/288650179155545077333726.m3u8"
-						},
-						{
-							"id": "3",
-							"name": "TRAV PERON 5 BAWAH",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/868247723886849361997412.m3u8"
-						},
-						{
-							"id": "4",
-							"name": "TRAV PERON 7 BAWAH",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/969874479643632693841434.m3u8"
-						}
-					]
+					"id": "1",
+					"name": "TRAV PERON 1 BAWAH",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/970166039821732819439469.m3u8"
 				},
 				{
-					"id_sector": 2,
-					"sector": "HALL",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "HALL",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/824815660258769737103119.m3u8"
-						}
-					]
+					"id": "2",
+					"name": "TRAV PERON 3 BAWAH",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/288650179155545077333726.m3u8"
 				},
 				{
-					"id_sector": 3,
-					"sector": "TRAV PERON HALL ATAS",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "TRAV PERON HALL ATAS",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/270725978814837058273546.m3u8"
-						}
-					]
+					"id": "3",
+					"name": "TRAV PERON 5 BAWAH",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/868247723886849361997412.m3u8"
 				},
 				{
-					"id_sector": 4,
-					"sector": "TRAV PERON ATAS",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "TRAV PERON 1 ATAS",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/270725978814837058273546.m3u8"
-						},
-						{
-							"id": "2",
-							"name": "TRAV PERON 3 ATAS",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/483067876133532544626378.m3u8"
-						},
-						{
-							"id": "3",
-							"name": "TRAV PERON 5 ATAS",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/088723240826193747864159.m3u8"
-						},
-						{
-							"id": "4",
-							"name": "TRAV PERON 7 ATAS",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/124714111743599217072137.m3u8"
-						}
-					]
+					"id": "4",
+					"name": "TRAV PERON 7 BAWAH",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/969874479643632693841434.m3u8"
 				},
 				{
-					"id_sector": 5,
-					"sector": "SKYBRIDGE POJOK UTARA",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "SKYBRIDGE POJOK UTARA",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/630028030554191865669077.m3u8"
-						}
-					]
+					"id": "5",
+					"name": "HALL",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/824815660258769737103119.m3u8"
 				},
 				{
-					"id_sector": 6,
-					"sector": "SKYBRIDGE POJOK SELATAN",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "SKYBRIDGE POJOK SELATAN",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/701054868863149728181309.m3u8"
-						}
-					]
+					"id": "6",
+					"name": "TRAV PERON HALL ATAS",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/270725978814837058273546.m3u8"
 				},
 				{
-					"id_sector": 7,
-					"sector": "SINYAL MASUK TIMUR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "SINYAL MASUK TIMUR",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/778207896459696660959517.m3u8"
-						}
-					]
+					"id": "7",
+					"name": "TRAV PERON 1 ATAS",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/270725978814837058273546.m3u8"
 				},
 				{
-					"id_sector": 8,
-					"sector": "SINYAL KELUAR TIMUR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "SINYAL KELUAR TIMUR",
-							"url": "https://cctv3.sigma.my.id:5443/stBD/streams/812448650260481456309412.m3u8"
-						}
-					]
+					"id": "8",
+					"name": "TRAV PERON 3 ATAS",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/483067876133532544626378.m3u8"
+				},
+				{
+					"id": "9",
+					"name": "TRAV PERON 5 ATAS",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/088723240826193747864159.m3u8"
+				},
+				{
+					"id": "10",
+					"name": "TRAV PERON 7 ATAS",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/124714111743599217072137.m3u8"
+				},
+				{
+					"id": "11",
+					"name": "SKYBRIDGE POJOK UTARA",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/630028030554191865669077.m3u8"
+				},
+				{
+					"id": "12",
+					"name": "SKYBRIDGE POJOK SELATAN",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/701054868863149728181309.m3u8"
+				},
+				{
+					"id": "13",
+					"name": "SINYAL MASUK TIMUR",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/778207896459696660959517.m3u8"
+				},
+				{
+					"id": "14",
+					"name": "SINYAL KELUAR TIMUR",
+					"url": "https://cctv3.sigma.my.id:5443/stBD/streams/812448650260481456309412.m3u8"
 				}
 			]
 		},
@@ -174,54 +118,26 @@
 			"city": "Kabupaten Cianjur",
 			"province": "Jawa Barat",
 			"country": "Indonesia",
-			"list-sector": [
+			"cameras": [
 				{
-					"id_sector": 20,
-					"sector": "JALUR ARAH KE BARAT",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/359312103044122463061638.m3u8"
-						}
-					]
+					"id": "1",
+					"name": "JALUR ARAH KE BARAT",
+					"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/359312103044122463061638.m3u8"
 				},
 				{
-					"id_sector": 21,
-					"sector": "JALUR ARAH KE TIMUR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/344505261289578566279432.m3u8"
-						}
-					]
+					"id": "2",
+					"name": "JALUR ARAH KE TIMUR",
+					"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/344505261289578566279432.m3u8"
 				},
 				{
-					"id_sector": 22,
-					"sector": "RUANG TUNGGU",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/700715351750204185439525.m3u8"
-						}
-					]
+					"id": "3",
+					"name": "RUANG TUNGGU",
+					"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/700715351750204185439525.m3u8"
 				},
 				{
-					"id_sector": 23,
-					"sector": "PINTU KELUAR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/279239846553266693016275.m3u8"
-						}
-					]
+					"id": "4",
+					"name": "PINTU KELUAR",
+					"url": "https://cctv3.sigma.my.id:5443/stCRJ/streams/279239846553266693016275.m3u8"
 				}
 			]
 		},
@@ -233,78 +149,36 @@
 			"city": "Kabupaten Cianjur",
 			"province": "Jawa Barat",
 			"country": "Indonesia",
-			"list-sector": [
+			"cameras": [
 				{
-					"id_sector": 31,
-					"sector": "KANTOR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1xfgBqITRHiKargWbui71_l9D8cfk4-1C",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/172482818827854110708880.m3u8"
-						}
-					]
+					"id": "1",
+					"name": "KANTOR",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/172482818827854110708880.m3u8"
 				},
 				{
-					"id_sector": 32,
-					"sector": "PARKIR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1ALqGmO8PlEOoTMhF2kB7OlH45HmsQI3B",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/530760717639066733405191.m3u8"
-						}
-					]
+					"id": "2",
+					"name": "PARKIR",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/530760717639066733405191.m3u8"
 				},
 				{
-					"id_sector": 33,
-					"sector": "REL",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1-0vBHwrIbT8UjqgAQnPFKCSZU2UC-BhT",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/945230695120686804840706.m3u8"
-						}
-					]
+					"id": "3",
+					"name": "REL",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/945230695120686804840706.m3u8"
 				},
 				{
-					"id_sector": 34,
-					"sector": "PINTU MASUK",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/670301260687069998559914.m3u8"
-						}
-					]
+					"id": "4",
+					"name": "PINTU MASUK",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/670301260687069998559914.m3u8"
 				},
 				{
-					"id_sector": 35,
-					"sector": "ADMINISTRASI",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/462562065663214689932154.m3u8"
-						}
-					]
+					"id": "5",
+					"name": "ADMINISTRASI",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/462562065663214689932154.m3u8"
 				},
 				{
-					"id_sector": 34,
-					"sector": "PINTU KELUAR",
-					"imageUrl": "https://drive.google.com/uc?export=view&id=1UG--OUhc39Qivan0_yVdDZGsH_mcHOAL",
-					"cameras": [
-						{
-							"id": "1",
-							"name": "Camera1",
-							"url": "https://cctv3.sigma.my.id:5443/stANG/streams/724851936763847872897117.m3u8"
-						}
-					]
+					"id": "6",
+					"name": "PINTU KELUAR",
+					"url": "https://cctv3.sigma.my.id:5443/stANG/streams/724851936763847872897117.m3u8"
 				}
 			]
 		}
