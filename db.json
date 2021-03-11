@@ -26,6 +26,15 @@
 			"city": "Kabupaten Cianjur",
 			"province": "Jawa Barat",
 			"country": "Indonesia"
+		},
+		{
+			"station_id": 4,
+			"station_name": "Stasiun Cimekar",
+			"station_phone": "021-121",
+			"street_address": "Cibiru Hilir, Cileunyi, Bandung, Jawa Barat, Indonesia, Jawa Barat 40626",
+			"city": "Kota Bandung",
+			"province": "Jawa Barat",
+			"country": "Indonesia"
 		}
 	],
 	"list-camera": [
@@ -107,6 +116,36 @@
 					"id": "14",
 					"name": "SINYAL KELUAR TIMUR",
 					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/812448650260481456309412.m3u8"
+				},
+				{
+					"id": "15",
+					"name": "RUANG TUNGGU PENUMPANG PERON",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam01.m3u8"
+				},
+				{
+					"id": "16",
+					"name": "HALL RUANG RUNGGU PENUMPANG",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam02.m3u8"
+				},
+				{
+					"id": "17",
+					"name": "PERON DI SAMPING ROTI O",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam03.m3u8"
+				},
+				{
+					"id": "18",
+					"name": "RUANG TUNGGU DEPAN PINTU MASUK",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam04.m3u8"
+				},
+				{
+					"id": "19",
+					"name": "HALL DEPAN RUANG KEPALA STASIUN",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam05.m3u8"
+				},
+				{
+					"id": "20",
+					"name": "PINTU MASUK",
+					"url": "http://cctv3.sigma.my.id:5080/stBD/streams/dahua01-cam06.m3u8"
 				}
 			]
 		},
@@ -179,6 +218,37 @@
 					"id": "6",
 					"name": "PINTU KELUAR",
 					"url": "http://cctv3.sigma.my.id:5080/stANG/streams/724851936763847872897117.m3u8"
+				}
+			]
+		},
+		{
+			"station_id": 4,
+			"station_name": "Stasiun Cimekar",
+			"station_phone": "021-121",
+			"street_address": "Cibiru Hilir, Cileunyi, Bandung, Jawa Barat, Indonesia, Jawa Barat 40626",
+			"city": "Kota Bandung",
+			"province": "Jawa Barat",
+			"country": "Indonesia",
+			"cameras": [
+				{
+					"id": "1",
+					"name": "PERON TIMUR CMK",
+					"url": "http://cctv3.sigma.my.id:5080/stCMK/streams/dahua01-cam01.m3u8"
+				},
+				{
+					"id": "2",
+					"name": "MUSHOLA CMK",
+					"url": "http://cctv3.sigma.my.id:5080/stCMK/streams/dahua01-cam02.m3u8"
+				},
+				{
+					"id": "3",
+					"name": "LOKET CMK",
+					"url": "http://cctv3.sigma.my.id:5080/stCMK/streams/dahua01-cam03.m3u8"
+				},
+				{
+					"id": "4",
+					"name": "ANTRIAN LOKET CMK",
+					"url": "http://cctv3.sigma.my.id:5080/stCMK/streams/dahua01-cam04.m3u8"
 				}
 			]
 		}
